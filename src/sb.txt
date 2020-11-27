@@ -1,0 +1,52 @@
+we dont want files that are :
+1) app.test.js
+2) logo.svg
+3) setupTest.js
+
+
+
+      {/* header */}
+            to call a any file or js funcion in inside
+                  1) import it like  * import Header from './Header'; *
+                  2) add this in to wehere u want to call this funcion or js and other files <Header />
+            material ui to take icones for our app and web there is materialui website to import icons * import PersonIcon from '@material-ui/icons/Person'; *
+                                                                                                       * import ForumIcon from '@material-ui/icons/Forum'; *
+
+            to increase the logo size then use fontSize="large" in the programme 
+                  <PersonIcon fontSize="large"/>
+                  <ForumIcon fontSize="large"/>
+
+            install npm install react-router-dom for multiple pages add to on aur app
+
+            **and use home page always last
+                  
+                  like this example 
+
+                       <div className="App">
+                         <Router>
+                           <Header />
+                           <Switch>
+                           <Route path="/chat">
+                               <h1>i am chat page</h1>
+                             </Route>
+                       
+                             <Route path="/">
+                               <h1>i am home page</h1>
+                             </Route>
+                           </Switch>
+                         </Router>
+                       </div>
+
+                  if we go on page localhost:3000/           we get home page
+                  if we go on page localhost:3000/chat       we get chat page open
+
+      {/* TinderCard */}
+      {/* SwipeButtons */}
+
+
+give 1st this to confirm what we want me the page here we eant header, tinder cards, swipe SwipeButtons
+
+
+
+
+

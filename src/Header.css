@@ -1,0 +1,15 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    align-items: center;
+}
+.header__logo {
+    height: 35px;
+    object-fit: contain;  /*to maintaint size with aspect ratio*/
+    padding: 10px;
+}
+
+.header__icon {
+    padding: 10px;
+}
